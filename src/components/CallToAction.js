@@ -20,7 +20,6 @@
 // src/components/CallToAction.js
 import React from 'react';
 import '../styles/CallToAction.css';
-
 const CallToAction = () => {
     return (
         <section className="call-to-action">

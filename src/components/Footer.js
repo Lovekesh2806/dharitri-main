@@ -5,7 +5,6 @@ import logoImage from '../assets/images/Dharitri.svg';
 import '../styles/footer.css'; // Import the CSS file for styling
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord, faFacebook, faInstagram, faLinkedin, faTelegram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-
 const Footer = () => {
     return (
         <footer className="footer">

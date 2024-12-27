@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/header.css'; // Import the CSS file
 import logoImage from '../assets/images/Dharitri.svg';
-
 const Header = () => {
     const [individualsDropdown, setIndividualsDropdown] = useState(false);
     const [developersDropdown, setDevelopersDropdown] = useState(false);
@@ -13,8 +12,12 @@ const Header = () => {
     const [communityDropdown, setCommunityDropdown] = useState(false);
     const [aboutDropdown, setAboutDropdown] = useState(false);
 
+    const [sidebarOpen, setSidebarOpen] = useState(false);
+
     const handleMouseEnter = (setDropdown) => () => setDropdown(true);
     const handleMouseLeave = (setDropdown) => () => setDropdown(false);
+
+    const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
 
     return (
         <nav className="header">
@@ -23,8 +26,13 @@ const Header = () => {
                     <img src={logoImage} alt="Dharitri Logo"/>
                 </Link>
             </div>
+            <div className="hamburger" onClick={toggleSidebar}>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
 
-            <div className="nav-menu">
+            <div className={`nav-menu ${sidebarOpen ? 'open' : ''}`}>
                 <div
                     className="nav-item"
                     onMouseEnter={handleMouseEnter(setIndividualsDropdown)}
