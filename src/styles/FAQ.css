@@ -1,0 +1,22 @@
+/* src/styles/FAQ.css */
+
+.faq {
+    margin-top: 40px;
+}
+
+.faq-item {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+}
+
+.faq-question {
+    font-size: 1.1rem;
+    color: #10A828;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 1rem;
+}

@@ -1,0 +1,63 @@
+/* DropdownMenu.css */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background-color: #10A828;
+    color: #111;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s;
+}
+
+.dropdown-toggle:hover {
+    background-color: #00d29d;
+}
+
+.dropdown-toggle .arrow {
+    transition: transform 0.3s;
+}
+
+.dropdown-toggle .arrow.open {
+    transform: rotate(180deg);
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #222;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 0.5rem 0;
+    z-index: 1;
+    transition: opacity 0.3s ease;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    display: block;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #10A828;
+    color: #111;
+}
+
+.dropdown-content a:not(:last-child) {
+    border-bottom: 1px solid #444;
+}

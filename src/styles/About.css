@@ -1,0 +1,30 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #004c3f;
+    color: #fff;
+}
+
+.mission-section, .vision-section, .history-section {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.mission-section h2, .vision-section h2, .history-section h2 {
+    font-size: 2rem;
+    color: #004c3f;
+}
+
+.mission-section p, .vision-section p, .history-section p {
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 600px;
+    margin: auto;
+}

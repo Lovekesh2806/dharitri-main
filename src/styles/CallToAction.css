@@ -1,0 +1,71 @@
+/* CallToAction.css
+.cta-section {
+    background-color: #10A828;  Accent color similar to Dharitri 
+    color: #111;  Dark text color for contrast 
+    padding: 3rem 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cta-content {
+    max-width: 800px;
+}
+
+.cta-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #111;
+}
+
+.cta-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #111;
+    color: #10A828;
+    padding: 0.75rem 2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #333;
+} */
+
+
+
+
+
+/* src/styles/CallToAction.css */
+.call-to-action {
+    padding: 60px 20px;
+    text-align: center;
+    background: black;
+    color: #fff;
+}
+
+.cta-button {
+    padding: 12px 24px;
+    color: #1a1a2e;
+    background-color: #10A828;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #1a1a2e;
+}

@@ -1,0 +1,106 @@
+/* HeroSection.css */
+
+.hero-section {
+    /* background-image: url('path-to-your-background-image.jpg');  Replace with your image  */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    background : black;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.hero-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #10A828;
+}
+
+.hero-subheading {
+    font-size: 1.5rem;
+    font-weight: 200;
+    width: 1000px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    color: #ddd;
+}
+
+.btn-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    color: #FFF;
+    background: #004CFF;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    /* box-shadow: linear-gradient(160deg,#004CFF, #10A828); */
+    color: black;
+    background: #FFF;
+}
+
+
+
+.cta-button {
+    padding: 12px 24px;
+    color: #1a1a2e;
+    background-color: #10A828;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #1a1a2e;
+    color: #10A828;
+}
+
+/* Swiper Slider Styling */
+.image-slider {
+    margin-top: 50px;
+    height: 300px;
+    width: 100%; /* Adjust width as needed */
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-radius: 15px;
+
+  }
+  
+  .slider-image {
+    width: 90%;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+  }

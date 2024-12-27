@@ -1,0 +1,26 @@
+/* src/styles/EventsCalendar.css */
+
+.events-calendar {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.event {
+    padding: 15px;
+    border: 1px solid #10A828;
+    border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+}
+
+.event-date {
+    font-size: 1rem;
+    color: #10A828;
+}
+
+.event-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
